@@ -5,7 +5,7 @@ on:
 
 jobs:
   build:
-    runs-on: ubuntu-latest-8core
+    runs-on: ubuntu-latest
     steps:
       - name: setup 
         run: |
