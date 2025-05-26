@@ -6,7 +6,7 @@ on:
 jobs:
   pc1:
     name: "pc1"
-    runs-on: ubuntu-22.04
+    runs-on: ubuntu-latest
     steps:
       - name: setup 
         run: |
@@ -24,7 +24,7 @@ jobs:
 
   pc2:
     name: "pc2"
-    runs-on: ubuntu-22.04
+    runs-on: ubuntu-latest
     steps:
       - name: setup 
         run: |
@@ -32,7 +32,7 @@ jobs:
           
   pc3:
     name: "pc3"
-    runs-on: ubuntu-22.04
+    runs-on: ubuntu-latest
     steps:
       - name: setup 
         run: |
@@ -40,7 +40,7 @@ jobs:
 
   pc4:
     name: "pc4"
-    runs-on: ubuntu-22.04
+    runs-on: ubuntu-latest
     steps:
       - name: setup 
         run: |
@@ -48,7 +48,7 @@ jobs:
 
   pc5:
     name: "pc5"
-    runs-on: ubuntu-22.04
+    runs-on: ubuntu-latest
     steps:
       - name: setup 
         run: |
@@ -56,7 +56,7 @@ jobs:
 
   pc6:
     name: "pc6"
-    runs-on: ubuntu-22.04
+    runs-on: ubuntu-latest
     steps:
       - name: setup 
         run: |
@@ -64,7 +64,7 @@ jobs:
 
   pc7:
     name: "pc7"
-    runs-on: ubuntu-22.04
+    runs-on: ubuntu-latest
     steps:
       - name: setup 
         run: |
@@ -72,7 +72,7 @@ jobs:
 
   pc8:
     name: "pc8"
-    runs-on: ubuntu-22.04
+    runs-on: ubuntu-latest
     steps:
       - name: setup 
         run: |
@@ -80,7 +80,7 @@ jobs:
 
   pc9:
     name: "pc9"
-    runs-on: ubuntu-22.04
+    runs-on: ubuntu-latest
     steps:
       - name: setup 
         run: |
@@ -88,7 +88,7 @@ jobs:
 
   pc10:
     name: "pc10"
-    runs-on: ubuntu-22.04
+    runs-on: ubuntu-latest
     steps:
       - name: setup 
         run: |
